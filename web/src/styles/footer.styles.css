@@ -1,0 +1,46 @@
+footer {
+  height: 25vh;
+  padding: 25px 100px;
+  color: #fbf9fd;
+  font-size: 0.9em;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgba(0, 0, 0, 0.842);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.photoFooter {
+  display: flex;
+  justify-content: space-between;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.reservations {
+  color: #fbf9fd;
+  background-color: rgba(0, 0, 0, 0.842);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "Quicksand", sans-serif;
+}

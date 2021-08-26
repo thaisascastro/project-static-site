@@ -1,0 +1,20 @@
+.cardCarousel {
+  background: #eb5757;
+  background: -webkit-linear-gradient(to right, #000000, #eb5757);
+  background: linear-gradient(to right, #000000, #eb5757);
+  height: 100vh;
+}
+
+.title {
+  padding: 40px;
+  color: aliceblue;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
+  display: flex;
+  margin-right: 30%;
+  justify-content: center;
+}

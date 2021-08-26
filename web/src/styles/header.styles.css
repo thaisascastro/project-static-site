@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  color: aliceblue;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.imageHeader {
+  border-radius: 2px;
+}
