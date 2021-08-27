@@ -43,13 +43,13 @@ export const CardCarousel = () => {
               }
             }}
           >
-            <img height={500} width={500} src="/assets/bands/bon-jovi.jpg" />
-            <img height={500} width={500} src="/assets/bands/guns.jpeg" />
-            <img height={500} width={500} src="/assets/bands/iron.jpeg" />
-            <img height={500} width={500} src="/assets/bands/metallica.jpeg" />
-            <img height={500} width={500} src="/assets/bands/pink-floyd.jpeg" />
-            <img height={500} width={500} src="/assets/bands/rolling.jpeg" />
-            <img height={500} width={500} src="/assets/bands/SOAD.jpeg" />
+            <img height={400} width={500} src="/assets/bands/bon-jovi.jpg" />
+            <img height={400} width={500} src="/assets/bands/guns.jpeg" />
+            <img height={400} width={500} src="/assets/bands/iron.jpeg" />
+            <img height={400} width={500} src="/assets/bands/metallica.jpeg" />
+            <img height={400} width={500} src="/assets/bands/pink-floyd.jpeg" />
+            <img height={400} width={500} src="/assets/bands/rolling.jpeg" />
+            <img height={400} width={500} src="/assets/bands/SOAD.jpeg" />
           </Carousel>
           {/* <Carousel responsive={{}}>
               <img
