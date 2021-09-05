@@ -7,14 +7,51 @@
 
 .title {
   padding: 40px;
-  color: aliceblue;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 3em;
   display: flex;
+  color: #9999a4;
   justify-content: center;
 }
 
 .carousel {
   display: flex;
-  margin-right: 30%;
+  margin-right: 5%;
+  margin: 25px;
+  margin-left: 5%;
+}
+
+.promo {
+  display: flex;
+  color: white;
   justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 30%;
+  margin-left: 35%;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.days {
+  display: flex;
+  font-size: 1.5em;
+  color: #000000;
+  width: 60%;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.days a {
+  display: flex;
+  color: inherit;
+  padding: 10px;
+  font-weight: 500;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #000000 0%, #eb5757 100%);
 }
