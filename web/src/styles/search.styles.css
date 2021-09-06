@@ -1,0 +1,37 @@
+.search {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #3d1820,
+    #772731,
+    #b33938,
+    #ee5335
+  );
+}
+
+.searchSpan {
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.registerSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cardSearch {
+  padding: 50px;
+  width: 40vw;
+  height: 30vh;
+  padding-top: 25px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}

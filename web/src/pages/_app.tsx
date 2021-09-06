@@ -1,5 +1,6 @@
 import "../styles/footer.styles.css";
 import "../styles/header.styles.css";
+import "../styles/search.styles.css";
 import "../styles/carousel.styles.css";
 import "../styles/register.styles.css";
 

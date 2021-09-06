@@ -2,7 +2,6 @@ import React, { Fragment, useRef } from "react";
 
 import "react-multi-carousel/lib/styles.css";
 import Carousel from "react-elastic-carousel";
-import Image from "next/image";
 
 export const CardCarousel = () => {
   const itemsPerPage = 3;

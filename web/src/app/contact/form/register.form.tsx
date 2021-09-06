@@ -7,6 +7,7 @@ import {
   Button,
   DatePicker,
   InputNumber,
+  notification,
 } from "antd";
 
 import React, { Fragment, useCallback } from "react";
@@ -20,7 +21,7 @@ export const RegisterContact = () => {
 
   const onFinish = useCallback(async (data) => {
     try {
-      await fetch("http://localhost:4000", {
+      await fetch("http://localhost:4000/ticket", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -30,8 +31,16 @@ export const RegisterContact = () => {
       });
 
       form.resetFields();
+
+      notification.success({
+        message: "Compra realizada com sucesso!",
+        description: "Seu ingresso foi comprado com sucesso!",
+      });
     } catch (error) {
-      console.log("deu pau..");
+      notification.error({
+        message: "Não foi possível realizar a compra!",
+        description: "Ocorreu um erro ao efetuar a compra!",
+      });
     }
   }, []);
 
@@ -52,7 +61,7 @@ export const RegisterContact = () => {
               <Row>
                 <Col span={24}>
                   <Item
-                    name={"name"}
+                    name="name"
                     hasFeedback
                     label="Nome"
                     rules={[{ required: true, message: "Obrigatório!" }]}
@@ -105,17 +114,14 @@ export const RegisterContact = () => {
                     rules={[{ required: true, message: "Obrigatório!" }]}
                   >
                     <Select placeholder="Selecione a forma de pagamento">
-                      <Option key="1" value="cartao-credito">
+                      <Option key="1" value="CREDIT_CART">
                         Cartão Crédito
                       </Option>
-                      <Option key="2" value="cartao-debito">
+                      <Option key="2" value="DEBIT_CART">
                         Cartão Débito
                       </Option>
-                      <Option key="3" value="pix">
+                      <Option key="3" value="PIX">
                         PIX
-                      </Option>
-                      <Option key="4" value="boleto">
-                        Boleto
                       </Option>
                     </Select>
                   </Item>
