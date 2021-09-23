@@ -1,9 +1,10 @@
-import { Fragment } from "react"
+import { Fragment } from "react";
+import { HeaderSchool } from "./header/header";
 
 export const SchoolCommerce = () => {
   return (
     <Fragment>
-      <div>Ola</div>
+      <HeaderSchool />
     </Fragment>
-  )
-}
+  );
+};
