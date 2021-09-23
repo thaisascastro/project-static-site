@@ -27,7 +27,6 @@ export const HeaderSchool = () => {
           Escola Etec Antônio de Pádua Cardoso
         </Footer>
       </Layout>
-      ,
     </Fragment>
   );
 };
