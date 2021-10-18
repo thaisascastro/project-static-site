@@ -4,6 +4,7 @@ import "../styles/search.styles.css";
 import "../styles/carousel.styles.css";
 import "../styles/register.styles.css";
 import "../styles/headerSchool.styles.css";
+import "../styles/login.styles.css";
 
 import "antd/dist/antd.css";
 

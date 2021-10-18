@@ -1,0 +1,19 @@
+.login {
+  justify-content: center;
+  height: 100vh;
+  padding: 125px;
+  background-color: #fbf9fd;
+}
+
+.cardLogin {
+  display: flex;
+  margin-left: 30%;
+  align-items: center;
+  padding: 35px;
+  width: 35vw;
+  height: 45vh;
+  padding-top: 50px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
