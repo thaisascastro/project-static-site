@@ -13,6 +13,7 @@ export const Login = () => {
   return (
     <Fragment>
       <div className="login">
+        {/* <h1 style={{display: 'flex', justifyContent: 'center', color: 'blue'}}>Login</h1> */}
         <div className="cardLogin"> 
     <Form
       name="basic"
