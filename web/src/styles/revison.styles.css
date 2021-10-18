@@ -1,0 +1,33 @@
+.revision {
+  justify-content: center;
+  height: 100vh;
+  padding: 125px;
+  background-color: #fbf9fd;
+}
+
+.cardRevision {
+  padding: 50px;
+  width: 40vw;
+  height: 75vh;
+  padding-top: 25px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.name {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px blue, 0 0 5px darkblue;
+  font-size: 2em;
+}
+
+.image {
+  filter: hue-rotate(180deg);
+}
+
+.image2 {
+  filter: opacity(50%);
+}
+
+.image3 {
+  filter: saturate(7);
+}
